@@ -60,4 +60,4 @@ This dashboard is a small step toward turning raw data into meaningful insights.
 
 If you're interested in **data analytics, business intelligence, or Power BI**, I'd love to hear your thoughts!
 
-#DataAnalytics #PowerBI #BusinessIntelligence #DataVisualization #PortfolioProject #OpenToWork
+#DataAnalytics #PowerBI #Claude #BusinessIntelligence #DataVisualization #PortfolioProject #OpenToWork
