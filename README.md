@@ -1,63 +1,163 @@
-📊 **“A retail company generated $9.8M in revenue… but almost $900K was lost due to product returns.”**
+# 📊 Retail Sales Performance Dashboard | Power BI
 
-This insight came from a dashboard I recently built using the **Online Retail dataset** in Power BI.
+## 📌 Project Overview
 
-**Purpose of the analysis:**
-To understand retail performance by identifying revenue growth patterns while also highlighting key business risks.
-The dashboard revealed two important issues: **high dependency on the UK market** and a **return rate above the company target**.
+This project analyzes the performance of an online retail business using Power BI to monitor revenue growth, product performance, geographic distribution, and product returns.
 
-Based on the analysis, the business should focus on:
-• Reducing high-return products
-• Expanding international sales to reduce market dependency
+Beyond visualizing sales metrics, the dashboard aims to identify business risks and provide actionable recommendations to improve profitability and support data-driven decision-making.
 
 ---
 
-### 🔍 Business Questions Explored
+## 🎯 Business Objectives
 
-Instead of only visualizing the data, I wanted to answer real business questions:
-
-• How is revenue growing over time?
-• Which products drive the most sales?
-• Which countries contribute the most revenue?
-• Why are returns happening and how much do they cost the business?
-
----
-
-### 📊 Key Insights
-
-📈 Revenue grew significantly in **2011 compared to 2010**
-
-🌍 Nearly **85% of revenue comes from one country**, showing a potential market concentration risk
-
-⚠️ The **return rate is 7.9%**, higher than the company target of **5%**, representing substantial lost revenue
-
-🛍️ A small group of products generates the **majority of total sales** (ABC classification)
+- Analyze overall sales performance and revenue trends
+- Identify top-performing products
+- Evaluate country-level sales contribution
+- Measure product return rates and financial impact
+- Build interactive KPIs for business monitoring
 
 ---
 
-### 🧠 Data Challenge
+## 🛠️ Tools & Technologies
 
-One interesting challenge in this dataset is that **product returns are recorded as negative quantities**.
-To understand the true business performance, I separated:
-
-• **Total Sales Revenue** (before returns)
-• **Return Revenue**
-• **Net Revenue** (actual revenue after returns)
+- Power BI
+- Power Query
+- DAX
+- Microsoft Excel
 
 ---
 
-### 🛠 Skills Practiced in This Project
+## 📂 Dataset
 
-• Data cleaning & transformation
-• Business KPI design
-• Interactive dashboard development in **Power BI**
-• Translating data into **actionable insights**
+Online Retail Transaction Dataset
 
 ---
 
-💡 **Data becomes valuable when it helps businesses make better decisions.**
-This dashboard is a small step toward turning raw data into meaningful insights.
+## 📈 Dashboard Features
 
-If you're interested in **data analytics, business intelligence, or Power BI**, I'd love to hear your thoughts!
+- Revenue Overview
+- Monthly Sales Trend
+- Product Performance
+- Country Performance
+- ABC Product Classification
+- Return Analysis
+- KPI Cards
+- Interactive Filters
 
-#DataAnalytics #PowerBI #Claude #BusinessIntelligence #DataVisualization #PortfolioProject #OpenToWork
+---
+
+# 📊 Business Questions
+
+- How is revenue growing over time?
+- Which products generate the highest sales?
+- Which countries contribute the most revenue?
+- How much revenue is lost due to product returns?
+- What business risks affect overall profitability?
+
+---
+
+# 📈 Key Findings
+
+### 💰 Revenue Growth
+
+Revenue increased significantly in **2011** compared to **2010**, indicating positive business growth.
+
+**Business Insight**
+
+The company experienced strong sales growth supported by increasing customer demand.
+
+---
+
+### 🌍 Geographic Performance
+
+Approximately **85% of total revenue** comes from the **United Kingdom**.
+
+**Business Risk**
+
+The business is highly dependent on a single market, creating geographic concentration risk.
+
+---
+
+### 🔄 Product Returns
+
+The return rate reached **7.9%**, exceeding the company's target of **5%**.
+
+This represents approximately **$900K** in lost revenue.
+
+**Business Risk**
+
+High return rates reduce profitability and may indicate issues related to product quality, customer expectations, or order fulfillment.
+
+---
+
+### 🛍️ Product Performance
+
+A relatively small group of products generates the majority of overall revenue based on **ABC Classification**.
+
+**Business Insight**
+
+Prioritizing inventory and marketing investment on high-performing products can maximize profitability.
+
+---
+
+# 💡 Business Recommendations
+
+- Reduce product returns by identifying high-return products and improving quality control.
+- Expand international sales to reduce dependence on the UK market.
+- Prioritize inventory planning for high-performing products.
+- Monitor return KPIs regularly through interactive dashboards.
+- Develop targeted marketing strategies for international markets.
+
+---
+
+## 🧠 Business Challenge
+
+One unique challenge in this dataset is that returned products are recorded as **negative quantities**.
+
+To measure actual business performance, the analysis separates:
+
+- Gross Sales Revenue
+- Return Revenue
+- Net Revenue
+
+This provides a more accurate understanding of company profitability.
+
+---
+
+## 📁 Repository Structure
+
+```
+├── Dataset
+├── Power BI Dashboard (.pbix)
+├── Images
+├── Documentation
+└── README.md
+```
+
+---
+
+## 🚀 Skills Demonstrated
+
+- Power BI
+- Power Query
+- DAX
+- Data Modeling
+- Business Intelligence
+- KPI Design
+- Dashboard Development
+- Data Visualization
+- Retail Analytics
+- Business Storytelling
+
+---
+
+## 👩‍💻 Author
+
+**Devi Aulia Oktaviona**
+
+
+🔗 LinkedIn: https://linkedin.com/in/dauliaoktaviona
+
+---
+
+> **Turning retail data into actionable business insights through interactive dashboards and data-driven decision making.**
